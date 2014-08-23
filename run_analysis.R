@@ -17,7 +17,7 @@ colnames(subjectTrain)  = "subjectId";
 colnames(xTrain)        = features[,2]; 
 colnames(yTrain)        = "activityId";
 
-# cCreate the final training set by merging yTrain, subjectTrain, and xTrain
+# Create the final training set by merging yTrain, subjectTrain, and xTrain
 trainingData = cbind(yTrain,subjectTrain,xTrain);
 
 # Read in the test data
